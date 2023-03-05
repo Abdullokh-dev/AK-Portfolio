@@ -1,11 +1,13 @@
 <script setup>
 
 import Header from "./componennts/Header.vue";
+import Content from "./componennts/Content.vue";
 </script>
 
 <template>
   <div class="container-fluid" id="mol">
     <Header />
+    <Content />
   </div>
 </template>
 
@@ -26,7 +28,7 @@ import Header from "./componennts/Header.vue";
 }
 
 .light {
-  background-color: white;
+  background-color: #111A20;
   --my-deep-gray: #293241;
   --my-dark: #182228;
   --my-text-color: #293241;
@@ -34,5 +36,4 @@ import Header from "./componennts/Header.vue";
   --my-orange: #FFA97A;
   --header-color: #9ba2a8;
 }
-
 </style>

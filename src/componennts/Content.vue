@@ -75,17 +75,95 @@
                 </div>
               </div>
             </div>
+            <div class="col-12 text-center text-md-start mt-4">
+              <button class="about-button mt-4" style="width: 145px"> Contact me </button>
+            </div>
           </div>
+
         </div>
       </div>
     </div>
   </div>
+
+  <div class="row mt-5">
+    <div class="col mt-5 text-center">
+      <div> <span class="title">My Experience</span> </div>
+      <div> <span class="title-info">My Abilities</span> </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center">
+
+      <div class="row groups-card  d-flex justify-content-center">
+
+        <div class="col-12 mt-5 experience-card">
+          <div class="experience-card-title"> Frontend Development </div>
+          <div class="experience-card-description"> More than a year </div>
+
+          <div class="experience-title">HTML</div>
+          <div class="text-end pe-5 percentage"> 90% </div>
+          <div class="progress-container m-0">
+            <div class="progress"></div>
+          </div>
+
+          <div class="experience-title mt-4">CSS</div>
+          <div class="text-end pe-5 percentage"> 90% </div>
+          <div class="progress-container m-0">
+            <div class="progress"></div>
+          </div>
+
+          <div class="experience-title ms-1 mt-4">JavaScript</div>
+          <div class="text-end pe-5 percentage"> 90% </div>
+          <div class="progress-container m-0">
+            <div class="progress"></div>
+          </div>
+
+          <div class="experience-title mt-4">Bootstrap</div>
+          <div class="text-end pe-5 percentage"> 90% </div>
+          <div class="progress-container m-0">
+            <div class="progress"></div>
+          </div>
+
+          <div class="experience-title mt-4">Vue.js</div>
+          <div class="text-end pe-5 percentage"> 90% </div>
+          <div class="progress-container m-0">
+            <div class="progress"></div>
+          </div>
+
+          <div class="experience-title mt-4">React.js</div>
+          <div class="text-end pe-5 percentage"> 90% </div>
+          <div class="progress-container m-0">
+            <div class="progress"></div>
+          </div>
+        </div>
+
+        <div class="col-12 mt-5 next-card experience-card">
+          <div class="experience-card-title"> Backend Development </div>
+          <div class="experience-card-description"> More than a year </div>
+
+          <div class="experience-title">Symfony</div>
+          <div class="text-end pe-5 percentage"> 90% </div>
+          <div class="progress-container m-0">
+            <div class="progress"></div>
+          </div>
+
+          <div class="experience-title mt-4">PHP</div>
+          <div class="text-end pe-5 percentage"> 90% </div>
+          <div class="progress-container m-0">
+            <div class="progress"></div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
 </template>
 
-<script>
-export default {
-  name: "AboutOwner"
-}
+<script setup>
+
 </script>
 
 <style scoped>
@@ -151,15 +229,12 @@ button {
   border-radius: 30px;
 }
 
-.title, .title-info {
-  line-height: 15px;
-}
-
 .title {
   color: var(--my-orange);
   font-size: 32px;
   font-weight: 700;
-  text-shadow: 0 7px 34px rgba(255,169,122,0.6);;
+  text-shadow: 0 7px 34px rgba(255,169,122,0.6);
+  line-height: 15px;
 }
 
 .title-info {
@@ -167,6 +242,7 @@ button {
   font-weight: 800;
   color: #767676;
   margin-top: 10px;
+  line-height: 25px;
 }
 
 .info-about-user {
@@ -202,6 +278,82 @@ button {
   line-height: 20px;
   letter-spacing: 0.6px;
   color: #959595;
+}
+
+.groups-card {
+  gap: 90px;
+}
+
+.experience-card {
+  width: 300px;
+  border-radius: 20px;
+  background-color: var(--my-dark);
+  padding: 22px 0 22px 31px;
+}
+
+.experience-card-title {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  color: var(--my-text-color);
+}
+
+.experience-card-description {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #767676;
+}
+
+.experience-title {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  color: var(--my-text-color);
+  margin-top: 10px;
+  margin-bottom: -18px;
+}
+
+/* Progress */
+.progress-container {
+  background: #FFA97A80;
+  border-radius: 5px;
+  height: 4px;
+  width: 82%;
+  box-shadow: 0 0 5px 0 #FFA97A80;
+}
+
+.progress {
+  background: var(--my-orange);
+  border-radius: 5px;
+  height: 100%;
+  width: 90%;
+  transition: width 0.1s linear;
+  box-shadow: 0 0 5px 0 #FFA97A;
+}
+
+.percentage {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #767676;
+}
+
+@media only screen and (max-width: 767px) {
+  .groups-card {
+    gap: 30px;
+  }
+}
+@media only screen and (max-width: 630px) {
+  .groups-card {
+    gap: 0;
+    margin: 5px;
+  }
 }
 
 </style>

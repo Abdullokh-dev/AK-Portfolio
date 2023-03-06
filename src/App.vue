@@ -1,7 +1,7 @@
 <script setup>
 
 import Header from "./componennts/Header.vue";
-import AboutOwner from "./componennts/AboutOwner.vue";
+import AboutOwner from "./componennts/Content.vue";
 </script>
 
 <template>

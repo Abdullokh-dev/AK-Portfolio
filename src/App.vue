@@ -1,13 +1,13 @@
 <script setup>
 
 import Header from "./componennts/Header.vue";
-import Content from "./componennts/Content.vue";
+import AboutOwner from "./componennts/AboutOwner.vue";
 </script>
 
 <template>
   <div class="container-fluid" id="mol">
     <Header />
-    <Content />
+    <AboutOwner />
   </div>
 </template>
 

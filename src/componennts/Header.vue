@@ -19,11 +19,11 @@ const toggleDark = useToggle(isDark);
     </div>
 
     <div class="col-6 p-3 d-flex justify-content-center li-group">
-      <span class="list">About</span>
-      <span class="list">Experience</span>
-      <span class="list">Services</span>
-      <span class="list">Portfolio</span>
-      <span class="list">Contact</span>
+      <a href="#about" class="list">About</a>
+      <a href="#experience" class="list">Experience</a>
+      <a href="#services" class="list">Services</a>
+      <a href="#portfolio" class="list">Portfolio</a>
+      <a href="#contact" class="list">Contact</a>
     </div>
 
     <div class="col-3 pe-5 d-flex justify-content-center">
@@ -60,6 +60,8 @@ const toggleDark = useToggle(isDark);
   margin: 0 1.05rem;
   font-size: 20px;
   line-height: 32px;
+  text-decoration: none;
+  color: var(--my-text-color);
 }
 
 svg {

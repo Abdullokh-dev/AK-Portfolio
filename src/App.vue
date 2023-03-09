@@ -6,7 +6,7 @@ import Footer from "./componennts/Footer.vue";
 </script>
 
 <template>
-  <div class="container-fluid" id="mol">
+  <div class="container-fluid">
     <Header />
     <AboutOwner />
     <Footer />

@@ -1,5 +1,4 @@
 <script setup>
-
 import {useDark, useToggle} from "@vueuse/core";
 
 const isDark = useDark({
@@ -8,7 +7,6 @@ const isDark = useDark({
   valueLight: "light"
 });
 const toggleDark = useToggle(isDark);
-
 </script>
 
 <template>
@@ -67,5 +65,4 @@ const toggleDark = useToggle(isDark);
 svg {
   margin-top: 14px;
 }
-
 </style>

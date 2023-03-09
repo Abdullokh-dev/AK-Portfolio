@@ -36,5 +36,4 @@ defineProps({
   letter-spacing: 0.2px;
   color: #767676;
 }
-
 </style>

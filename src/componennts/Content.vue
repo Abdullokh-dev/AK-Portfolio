@@ -18,14 +18,14 @@ import InputRange from "./InputRange.vue";
 
   <div class="row">
     <div class="col d-flex justify-content-center">
-      <button type="button" class="download-button m-3 mt-4"> Download CV </button>
+      <button type="button" class="download-button px-4 m-3 mt-4"> Download CV </button>
       <button class="about-button m-3 mt-4"> About me </button>
     </div>
   </div>
 
   <div class="row">
     <div class="col d-flex justify-content-center">
-      <img src="src/assets/img.png" class="first-image mt-3" width="275" height="275" alt="#">
+      <img src="../assets/bar.png" class="first-image mt-3" width="275" height="275" alt="#">
     </div>
   </div>
 
@@ -40,7 +40,7 @@ import InputRange from "./InputRange.vue";
     <div class="col-11 col-xl-8 mt-5">
       <div class="row">
         <div class="col-12 col-md-6 text-center text-xl-start">
-          <img src="src/assets/img_1.png" class="second-image mt-3" width="275" height="275" alt="#">
+          <img src="../assets/baz.png" class="second-image mt-3" width="275" height="275" alt="#">
         </div>
         <div class="col-12 col-md-6 text-center">
           <div class="row">
@@ -67,7 +67,7 @@ import InputRange from "./InputRange.vue";
                   </svg>
 
                   <div class="card-text-1">Worked</div>
-                  <div class="card-text-2 mb-2">The Kadirov Group</div>
+                  <div class="card-text-2 mb-2">Kadirov.Dev LLC</div>
                 </div>
               </div>
 
@@ -196,7 +196,7 @@ import InputRange from "./InputRange.vue";
       <div class="row gap-lg-5 d-flex justify-content-center">
         <div class="col-12 mt-5 me-md-5 project-card">
           <span class="offer-title">Web Book Application</span>
-          <img class="project-img" src="src/assets/1Books.png" width="245" alt="Abdullokh Project"/>
+          <img class="project-img" src="../assets/foo.png" width="245" alt="Abdullokh Project"/>
           <div>
             <button class="view-button px-3 me-4 mt-4"> View more </button>
           </div>
@@ -205,7 +205,7 @@ import InputRange from "./InputRange.vue";
         <div class="col-12 mt-5 project-card">
           <div class="experience-card-title">
             <span class="offer-title">Web Design Sell/Buy House</span>
-            <img class="project-img" src="src/assets/Oluy.png" width="245" alt="Abdullokh Project"/>
+            <img class="project-img" src="../assets/oluy.png" width="245" alt="Abdullokh Project"/>
             <div>
               <button class="view-button px-3 me-4 mt-4"> View more </button>
             </div>
@@ -261,25 +261,25 @@ import InputRange from "./InputRange.vue";
 
 .text {
   font-weight: 500;
-  font-size: 17px;
+  font-size: 1.7rem;
 }
 
 .name {
   font-weight: 800;
-  font-size: 40px;
-  line-height: 40px;
+  font-size: 4rem;
+  line-height: 4rem;
 }
 
 .profession {
   font-weight: 600;
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 button {
   height: 51px;
   text-align: center;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 2rem;
   border-radius: 5px;
 }
 
@@ -287,7 +287,6 @@ button {
   color: var(--my-text-color);
   border: 1px solid var(--my-orange);
   background: none;
-  width: 154px;
 }
 
 .about-button {
@@ -309,24 +308,24 @@ button {
 
 .title {
   color: var(--my-orange);
-  font-size: 32px;
+  font-size: 3.2rem;
   font-weight: 700;
   text-shadow: 0 7px 34px rgba(255,169,122,0.6);
-  line-height: 15px;
+  line-height: 1.5rem;
 }
 
 .title-info {
-  font-size: 15px;
+  font-size: 1.5rem;
   font-weight: 800;
   color: #767676;
   margin-top: 10px;
-  line-height: 25px;
+  line-height: 2.5rem;
 }
 
 .info-about-user {
-  font-size: 15px;
+  font-size: 1.5rem;
   font-weight: 600;
-  line-height: 25px;
+  line-height: 2.5rem;
   letter-spacing: 0.2px;
   text-align: left;
   color: #959595;
@@ -343,7 +342,7 @@ button {
 }
 
 .card-text-1 {
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 700;
   line-height: 20px;
   letter-spacing: 0.6px;

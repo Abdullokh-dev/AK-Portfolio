@@ -17,6 +17,7 @@ import Footer from "./componennts/Footer.vue";
 * {
   font-family: 'Jost', sans-serif;
   font-weight: 700;
+  font-size: 62.5%;
 }
 
 .dark {

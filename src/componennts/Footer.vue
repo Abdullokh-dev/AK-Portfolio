@@ -61,14 +61,14 @@
 }
 
 .user-name {
-  font-size: 30px;
+  font-size: 3rem;
   font-weight: 800;
   line-height: 32px;
   color: var(--my-deep-gray);
 }
 
 span {
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 600;
   line-height: 32px;
   color: var(--my-deep-gray);
@@ -88,7 +88,7 @@ span {
 }
 
 .rights-text {
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 800;
   line-height: 32px;
   color: var(--my-deep-gray);

@@ -30,7 +30,7 @@ defineProps({
 }
 
 .percentage {
-  font-size: 10px;
+  font-size: 1rem;
   font-weight: 500;
   line-height: 20px;
   letter-spacing: 0.2px;

@@ -350,7 +350,7 @@ button {
 }
 
 .card-text-2 {
-  font-size: 10px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 20px;
   letter-spacing: 0.6px;
@@ -376,7 +376,7 @@ button {
 }
 
 .experience-card-title {
-  font-size: 17px;
+  font-size: 1.7rem;
   font-weight: 600;
   line-height: 20px;
   letter-spacing: 0.4px;
@@ -384,7 +384,7 @@ button {
 }
 
 .experience-card-description {
-  font-size: 10px;
+  font-size: 1rem;
   font-weight: 500;
   line-height: 20px;
   letter-spacing: 0.2px;
@@ -393,7 +393,7 @@ button {
 }
 
 .experience-title {
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 600;
   line-height: 20px;
   letter-spacing: 0.4px;
@@ -403,7 +403,7 @@ button {
 }
 
 .offer-title {
-  font-size: 15px;
+  font-size: 1.5rem;
   font-weight: 600;
   line-height: 20px;
   letter-spacing: 0.4px;
@@ -415,7 +415,7 @@ button {
 }
 
 .offer-description {
-  font-size: 13px;
+  font-size: 1.3rem;
   font-weight: 500;
   line-height: 18px;
   letter-spacing: 0.2px;
@@ -437,7 +437,7 @@ button {
   border-radius: 5px;
   height: 35px;
   color: var(--my-text-color);
-  font-size: 17px;
+  font-size: 1.7rem;
   font-weight: 600;
   line-height: 32px;
   background: none;

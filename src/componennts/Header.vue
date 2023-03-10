@@ -66,14 +66,14 @@ const toggleDark = useToggle(isDark);
 }
 
 .namePortfolio {
-  font-size: 30px;
+  font-size: 3rem;
   line-height: 32px;
 }
 
 .list {
-  margin: 0 1.05rem;
-  font-size: 20px;
-  line-height: 32px;
+  margin: 0 30px;
+  font-size: 2rem;
+  line-height: 3.2rem;
   text-decoration: none;
   color: var(--my-text-color);
 }

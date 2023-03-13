@@ -7,7 +7,6 @@
           <div class="row d-flex justify-content-between">
             <div class="col-4 col-md-2">
               <a href="#about" class="mt-4">About</a>
-              <span class="mt-4"> About </span>
             </div>
             <div class="col-4 col-md-auto">
               <a href="#experience" class="mt-4">Experience</a>

@@ -191,26 +191,63 @@ import InputRange from "./InputRange.vue";
   </div>
 
   <div class="row d-flex justify-content-center">
-    <div class="col-10 col-md-12 d-flex justify-content-center">
+    <div class="col-10 col-md-12 col-lg-10 col-xl-8 col-xxl-7 d-flex justify-content-center">
 
       <div class="row gap-lg-5 d-flex justify-content-center">
         <div class="col-12 mt-5 me-md-5 project-card">
-          <span class="offer-title">Web Book Application</span>
-          <img class="project-img" src="../assets/foo.png" width="245" alt="Abdullokh Project"/>
+          <span class="offer-title">Books Web Application</span>
+          <img class="project-img" src="../assets/foo.png" width="265" alt="Abdullokh Project"/>
+          <div>
+            <button class="view-button px-3 me-4 mt-5"> View more </button>
+          </div>
+        </div>
+
+        <div class="col-12 mt-5 project-card">
+          <span class="offer-title">Education Center Website</span>
+          <img class="project-img" src="../assets/lavia.png" width="265" alt="Abdullokh Project"/>
           <div>
             <button class="view-button px-3 me-4 mt-4"> View more </button>
           </div>
         </div>
 
-        <div class="col-12 mt-5 project-card">
+        <div class="col-12 mt-5 me-md-5 project-card">
           <div class="experience-card-title">
             <span class="offer-title">Web Design Sell/Buy House</span>
-            <img class="project-img" src="../assets/oluy.png" width="245" alt="Abdullokh Project"/>
+            <img class="project-img" src="../assets/oluy.png" width="265" alt="Abdullokh Project"/>
             <div>
               <button class="view-button px-3 me-4 mt-4"> View more </button>
             </div>
           </div>
         </div>
+
+        <div class="col-12 mt-5 project-card">
+          <span class="offer-title">CottageUz Web Application</span>
+          <img class="project-img" src="../assets/cottage.jpg" width="265" alt="Abdullokh Project"/>
+          <div>
+            <button class="view-button px-3 me-4 mt-4"> View more </button>
+          </div>
+        </div>
+
+        <div class="col-12 mt-5 me-md-5 project-card">
+          <div class="experience-card-title">
+            <span class="offer-title">Little Books Library</span>
+            <img class="project-img" src="../assets/library.jpg" width="265" alt="Abdullokh Project"/>
+            <div>
+              <button class="view-button px-3 me-4 mt-5"> View more </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 mt-5 project-card">
+          <div class="experience-card-title">
+            <span class="offer-title">Manage Users List</span>
+            <img class="project-img" src="../assets/userlist.png" width="265" alt="Abdullokh Project"/>
+            <div>
+              <button class="view-button px-3 me-4 mt-4"> View more </button>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>

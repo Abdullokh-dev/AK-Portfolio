@@ -6,20 +6,21 @@
         <div class="col-12 col-md-10 col-lg-8 col-xl-6 mt-4">
           <div class="row d-flex justify-content-between">
             <div class="col-4 col-md-2">
+              <a href="#about" class="mt-4">About</a>
               <span class="mt-4"> About </span>
             </div>
             <div class="col-4 col-md-auto">
-              <span class="mt-4"> Experience </span>
+              <a href="#experience" class="mt-4">Experience</a>
             </div>
             <div class="col-4 col-md-auto">
-              <span class="mt-4"> Services </span>
+              <a href="#services" class="mt-4">Services</a>
             </div>
             <div class="col-4 col-md-auto">
-              <span class="mt-4"> Portfolio </span>
+              <a href="#portfolio" class="mt-4">Portfolio</a>
             </div>
             <div class="col-4 d-md-none"></div>
             <div class="col-4 col-md-auto">
-              <span class="mt-4"> Contact </span>
+              <a href="#contact" class="mt-4">Contact</a>
             </div>
           </div>
         </div>
@@ -67,11 +68,12 @@
   color: var(--my-deep-gray);
 }
 
-span {
+a {
   font-size: 2rem;
   font-weight: 600;
   line-height: 32px;
   color: var(--my-deep-gray);
+  text-decoration: none;
 }
 
 .contact-bar {

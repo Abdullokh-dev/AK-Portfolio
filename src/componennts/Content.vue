@@ -46,7 +46,20 @@ import InputRange from "./InputRange.vue";
           <div class="row">
             <div class="col-12">
               <p class="info-about-user mt-4">
-                Web developer, with extensive knowledge and years of experience, working in web technologies. Web development, delivering quality work
+                Frontend Developer, with extensive knowledge and years of experience, working in web technologies with
+                these my 3 mottos:
+              </p>
+              <p class="motto first">
+                Never stop learning and don't be shy about asking questions, just like you started it the first time!
+                When you have more experience than everyone around you,
+                Don't say "I know everything and Can create everything".
+                Because It will stop you growing!
+              </p>
+              <p class="motto second">
+                In the world of programming, you can't learn everything, and there's always someone stronger than you!
+              </p>
+              <p class="motto third">
+                The biggest mistake is "not making mistakes", because 80% of the programming process is dealing with mistakes
               </p>
             </div>
             <div class="col d-flex justify-content-center justify-content-lg-start  gap-4 gap-md-2 gap-lg-3">
@@ -157,15 +170,15 @@ import InputRange from "./InputRange.vue";
             </svg>
             <span class="offer-title ps-2">Creation of website/application</span>
           </div>
-          <p class="offer-description mt-3">
+          <p class="offer-description mt-2">
             You want to launch your web application, you need a developer who has an fire eyes for your future? Contact me and we will discuss your needs and desires.
           </p>
           <div class="d-flex justify-content-end">
-            <button class="contact-button px-3 me-4 mt-4"> Contact me </button>
+            <button class="contact-button px-3 me-5 mt-4"> Contact me </button>
           </div>
         </div>
 
-        <div class="col-12 mt-5 experience-card">
+        <div class="col-12 mt-5 experience-card" style="position: relative">
           <div>
             <svg class="checked-svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M12.2667 7.32496L8.69166 10.9083L7.31666 9.53329C7.24195 9.44606 7.15002 9.37521 7.04663 9.32519C6.94325 9.27517 6.83064 9.24706 6.71587 9.24263C6.60111 9.23819 6.48666 9.25753 6.37972 9.29943C6.27279 9.34132 6.17566 9.40487 6.09445 9.48608C6.01324 9.5673 5.94969 9.66442 5.9078 9.77136C5.8659 9.87829 5.84656 9.99274 5.85099 10.1075C5.85543 10.2223 5.88354 10.3349 5.93356 10.4383C5.98357 10.5417 6.05443 10.6336 6.14166 10.7083L8.09999 12.675C8.17786 12.7522 8.27021 12.8133 8.37174 12.8548C8.47327 12.8962 8.58199 12.9173 8.69166 12.9166C8.91028 12.9157 9.11978 12.8289 9.27499 12.675L13.4417 8.50829C13.5198 8.43082 13.5818 8.33866 13.6241 8.23711C13.6664 8.13556 13.6882 8.02664 13.6882 7.91663C13.6882 7.80662 13.6664 7.69769 13.6241 7.59615C13.5818 7.4946 13.5198 7.40243 13.4417 7.32496C13.2855 7.16975 13.0743 7.08263 12.8542 7.08263C12.634 7.08263 12.4228 7.16975 12.2667 7.32496ZM9.99999 1.66663C8.35182 1.66663 6.74065 2.15537 5.37024 3.07105C3.99983 3.98672 2.93173 5.28821 2.301 6.81093C1.67027 8.33365 1.50524 10.0092 1.82678 11.6257C2.14833 13.2422 2.942 14.7271 4.10744 15.8925C5.27287 17.058 6.75773 17.8516 8.37424 18.1732C9.99075 18.4947 11.6663 18.3297 13.189 17.699C14.7117 17.0682 16.0132 16.0001 16.9289 14.6297C17.8446 13.2593 18.3333 11.6481 18.3333 9.99996C18.3333 8.90561 18.1178 7.82198 17.699 6.81093C17.2802 5.79988 16.6664 4.88122 15.8925 4.1074C15.1187 3.33358 14.2001 2.71975 13.189 2.30096C12.178 1.88217 11.0943 1.66663 9.99999 1.66663ZM9.99999 16.6666C8.68145 16.6666 7.39252 16.2756 6.29619 15.5431C5.19986 14.8105 4.34538 13.7694 3.8408 12.5512C3.33621 11.333 3.20419 9.99256 3.46143 8.69936C3.71866 7.40615 4.3536 6.21826 5.28595 5.28591C6.2183 4.35356 7.40619 3.71863 8.69939 3.46139C9.9926 3.20416 11.333 3.33618 12.5512 3.84076C13.7694 4.34535 14.8106 5.19983 15.5431 6.29616C16.2757 7.39249 16.6667 8.68142 16.6667 9.99996C16.6667 11.7681 15.9643 13.4638 14.714 14.714C13.4638 15.9642 11.7681 16.6666 9.99999 16.6666Z" fill="#FFA97A"/>
@@ -176,7 +189,7 @@ import InputRange from "./InputRange.vue";
             You need a new design, something more modern? Contact me and we will discuss your needs and desires.
           </p>
           <div class="d-flex justify-content-end">
-            <button class="contact-button px-3 me-4 mt-4"> Contact me </button>
+            <button class="contact-button px-3 me-5" style="position: absolute; bottom: 22px"> Contact me </button>
           </div>
         </div>
       </div>
@@ -447,7 +460,7 @@ button {
 }
 
 .checked-svg {
-  margin-bottom: 3px;
+  margin-bottom: 10px;
 }
 
 .offer-description {
@@ -492,6 +505,26 @@ button {
   margin: auto;
 }
 
+.motto {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+  text-align: left;
+  color: #959595;
+}
+
+.first {
+  color: #FFA502;
+}
+
+.second {
+  color: #FA3913;
+}
+
+.third {
+  color: #2CBFBE;
+}
+
 @media only screen and (max-width: 767px) {
   .groups-card {
     gap: 30px;
@@ -503,5 +536,4 @@ button {
     margin: 5px;
   }
 }
-
 </style>

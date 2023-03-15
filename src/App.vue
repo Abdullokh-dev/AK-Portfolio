@@ -1,15 +1,10 @@
 <script setup>
 
-import Header from "./componennts/Header.vue";
-import Content from "./componennts/Content.vue";
-import Footer from "./componennts/Footer.vue";
 </script>
 
 <template>
   <div class="container-fluid">
-    <Header />
-    <Content />
-    <Footer />
+    <RouterView />
   </div>
 </template>
 

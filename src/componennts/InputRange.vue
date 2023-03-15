@@ -5,28 +5,26 @@ defineProps({
 </script>
 
 <template>
-  <div class="text-end pe-5 percentage"> {{progress}}% </div>
-  <div class="progress-container m-0">
-    <div class="progress" :style="{width: progress + '%'}"></div>
+  <div class="text-end pe-5 me-2 percentage"> {{progress}}% </div>
+
+  <div class="progress" role="progressbar" aria-label="experience percentage" :aria-valuenow="{progress}" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" :style="{width: progress + '%'}"></div>
   </div>
 </template>
 
 <style scoped>
-/* Progress */
-.progress-container {
-  background: #FFA97A80;
-  border-radius: 5px;
+.progress {
   height: 4px;
-  width: 82%;
+  background-color: #FFA97A80;
   box-shadow: 0 0 5px 0 #FFA97A80;
+  width: 87%;
 }
 
-.progress {
-  background: var(--my-orange);
-  border-radius: 5px;
-  height: 100%;
-  transition: width 0.1s linear;
+.progress-bar-striped {
+  background-color: #ffa97a;
   box-shadow: 0 0 5px 0 #FFA97A;
+  height: 4px;
+  border-radius: 2px;
 }
 
 .percentage {

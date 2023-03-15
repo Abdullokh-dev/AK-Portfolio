@@ -1,6 +1,22 @@
 <script setup>
-
+import {onMounted, ref} from "vue";
 import InputRange from "./InputRange.vue";
+
+const m = ref(0);
+const text = ref("The Percentages Below Represent How Much Of Which Technologies I Used During My Experience.")
+
+const typing = () => {
+  if(m.value < text.value.length) {
+    document.getElementById("text").innerHTML += text.value.charAt(m.value);
+    m.value++;
+    setTimeout(typing,5);
+  }
+}
+
+onMounted(() => {
+  typing()
+})
+
 </script>
 
 <template>
@@ -44,25 +60,25 @@ import InputRange from "./InputRange.vue";
         </div>
         <div class="col-12 col-md-6 text-center">
           <div class="row">
-            <div class="col-12">
-              <p class="info-about-user mt-4">
+            <div class="col-12 mt-4 mt-md-0">
+              <p class="info-about-user">
                 Frontend Developer, with extensive knowledge and years of experience, working in web technologies with
                 these my 3 mottos:
               </p>
-              <p class="motto first">
+              <p class="motto pt-2">
                 Never stop learning and don't be shy about asking questions, just like you started it the first time!
                 When you have more experience than everyone around you,
                 Don't say "I know everything and Can create everything".
                 Because It will stop you growing!
               </p>
-              <p class="motto second">
+              <p class="motto">
                 In the world of programming, you can't learn everything, and there's always someone stronger than you!
               </p>
-              <p class="motto third">
+              <p class="motto pb-3">
                 The biggest mistake is "not making mistakes", because 80% of the programming process is dealing with mistakes
               </p>
             </div>
-            <div class="col d-flex justify-content-center justify-content-lg-start  gap-4 gap-md-2 gap-lg-3">
+            <div class="col d-flex justify-content-between  gap-4 gap-md-2 gap-lg-3">
               <div class="card text-center mt-5" style="width: 130px;">
                 <div class="card-content">
                   <svg class="card-title" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -95,7 +111,9 @@ import InputRange from "./InputRange.vue";
               </div>
             </div>
             <div class="col-12 text-center text-md-start mt-4">
-              <button class="about-button mt-4" style="width: 145px"> Contact me </button>
+              <router-link to="/contact">
+                <button @click="$router.push('/contact')" role="link" class="about-button mt-4" style="width: 145px"> Contact me </button>
+              </router-link>
             </div>
           </div>
         </div>
@@ -112,9 +130,13 @@ import InputRange from "./InputRange.vue";
 
   <div class="row">
     <div class="col-12 d-flex justify-content-center">
+      <span class="experience-text mt-3" id=text></span>
+    </div>
+  </div>
 
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center">
       <div class="row groups-card d-flex justify-content-center">
-
         <div class="col-12 mt-5 experience-card">
           <div class="experience-card-title"> Frontend Development </div>
           <div class="experience-card-description"> More than a year </div>
@@ -174,7 +196,7 @@ import InputRange from "./InputRange.vue";
             You want to launch your web application, you need a developer who has an fire eyes for your future? Contact me and we will discuss your needs and desires.
           </p>
           <div class="d-flex justify-content-end">
-            <button class="contact-button px-3 me-5 mt-4"> Contact me </button>
+            <button @click="$router.push('/contact')" class="contact-button px-3 me-5 mt-4"> Contact me </button>
           </div>
         </div>
 
@@ -189,7 +211,7 @@ import InputRange from "./InputRange.vue";
             You need a new design, something more modern? Contact me and we will discuss your needs and desires.
           </p>
           <div class="d-flex justify-content-end">
-            <button class="contact-button px-3 me-5" style="position: absolute; bottom: 22px"> Contact me </button>
+            <button @click="$router.push('/contact')" class="contact-button px-3 me-5" style="position: absolute; bottom: 22px"> Contact me </button>
           </div>
         </div>
       </div>
@@ -377,7 +399,13 @@ button {
   line-height: 2.5rem;
   letter-spacing: 0.2px;
   text-align: left;
-  color: #959595;
+  color: #5CA17C;
+  background: -webkit-linear-gradient(135deg, #FF9F65, #DED37E, #26BDA6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: .4em;
+  margin-bottom: 0;
+  border-bottom: 1px solid #5CA17C;
 }
 
 .card {
@@ -408,6 +436,15 @@ button {
 
 .groups-card {
   gap: 90px;
+}
+
+.experience-text {
+  text-align: center;
+  color: #b4afaf;
+  text-shadow: 0 7px 34px orange;
+  font-size: 1.7rem;
+  min-width: 350px;
+  max-width: 500px;
 }
 
 .experience-card {
@@ -510,19 +547,12 @@ button {
   font-weight: 600;
   line-height: 2.5rem;
   text-align: left;
-  color: #959595;
-}
-
-.first {
-  color: #FFA502;
-}
-
-.second {
-  color: #FA3913;
-}
-
-.third {
-  color: #2CBFBE;
+  color: #5CA17C;
+  background: -webkit-linear-gradient( #26BDA6, #FF9F65, #DED37E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-bottom: 1px solid #5CA17C;
+  padding-bottom: .5rem;
 }
 
 @media only screen and (max-width: 767px) {

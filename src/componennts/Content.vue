@@ -207,7 +207,7 @@ onMounted(() => {
             </svg>
             <span class="offer-title ps-2">Rebranding</span>
           </div>
-          <p class="offer-description mt-3">
+          <p class="offer-description mt-3 mb-5">
             You need a new design, something more modern? Contact me and we will discuss your needs and desires.
           </p>
           <div class="d-flex justify-content-end">

@@ -14,7 +14,7 @@ defineProps({
 
 <style scoped>
 .progress {
-  height: 4px;
+  height: 6px;
   background-color: #FFA97A80;
   box-shadow: 0 0 5px 0 #FFA97A80;
   width: 87%;
@@ -23,8 +23,8 @@ defineProps({
 .progress-bar-striped {
   background-color: #ffa97a;
   box-shadow: 0 0 5px 0 #FFA97A;
-  height: 4px;
-  border-radius: 2px;
+  height: 6px;
+  border-radius: 3px;
 }
 
 .percentage {

@@ -1,5 +1,5 @@
 <template>
-  <div class="row mt-5">
+  <div class="row footer mt-5">
     <div class="col text-center text-light">
       <div class="user-name mt-4">Abdullokh Khamzaev </div>
       <div class="row d-flex justify-content-center">
@@ -56,8 +56,8 @@
 </script>
 
 <style scoped>
-.row {
-  background-color: var(--my-orange)
+.footer {
+  background: linear-gradient(179.92deg, #FFA97A 0.07%, rgba(248, 242, 244, 0.5) 134.98%);
 }
 
 .user-name {

@@ -233,7 +233,7 @@ onMounted(() => {
           <span class="offer-title">Books Web Application</span>
           <img class="project-img" src="../assets/foo.png" width="265" alt="Abdullokh Project"/>
           <div>
-            <button class="view-button px-3 me-4 mt-5"> View more </button>
+            <a class="btn view-button px-3 me-4 mt-5" href="https://book-app-green.vercel.app/" role="button"> View more </a>
           </div>
         </div>
 
@@ -241,7 +241,7 @@ onMounted(() => {
           <span class="offer-title">Education Center Website</span>
           <img class="project-img" src="../assets/lavia.png" width="265" alt="Abdullokh Project"/>
           <div>
-            <button class="view-button px-3 me-4 mt-4"> View more </button>
+            <a class="btn view-button px-3 me-4 mt-4" href="https://education-center-two.vercel.app/" role="button"> View more </a>
           </div>
         </div>
 
@@ -250,7 +250,7 @@ onMounted(() => {
             <span class="offer-title">Web Design Sell/Buy House</span>
             <img class="project-img" src="../assets/oluy.png" width="265" alt="Abdullokh Project"/>
             <div>
-              <button class="view-button px-3 me-4 mt-4"> View more </button>
+              <a class="btn view-button px-3 me-4 mt-4" href="https://buy-house-app.vercel.app/" role="button"> View more </a>
             </div>
           </div>
         </div>
@@ -259,7 +259,7 @@ onMounted(() => {
           <span class="offer-title">CottageUz Web Application</span>
           <img class="project-img" src="../assets/cottage.jpg" width="265" alt="Abdullokh Project"/>
           <div>
-            <button class="view-button px-3 me-4 mt-4"> View more </button>
+            <a class="btn view-button px-3 me-4 mt-4" href="https://cottage-app-ashy.vercel.app/" role="button"> View more </a>
           </div>
         </div>
 
@@ -268,7 +268,7 @@ onMounted(() => {
             <span class="offer-title">Little Books Library</span>
             <img class="project-img" src="../assets/library.jpg" width="265" alt="Abdullokh Project"/>
             <div>
-              <button class="view-button px-3 me-4 mt-5"> View more </button>
+              <a class="btn view-button px-3 me-4 mt-5" href="https://book-vert.vercel.app/" role="button"> View more </a>
             </div>
           </div>
         </div>
@@ -278,7 +278,7 @@ onMounted(() => {
             <span class="offer-title">Manage Users List</span>
             <img class="project-img" src="../assets/userlist.png" width="265" alt="Abdullokh Project"/>
             <div>
-              <button class="view-button px-3 me-4 mt-4"> View more </button>
+              <a class="btn view-button px-3 me-4 mt-4" href="https://labmedia-task.vercel.app/" role="button"> View more </a>
             </div>
           </div>
         </div>
@@ -525,7 +525,7 @@ button {
   color: var(--my-text-color);
   font-size: 1.7rem;
   font-weight: 600;
-  line-height: 32px;
+  line-height: 28px;
   background: none;
 }
 

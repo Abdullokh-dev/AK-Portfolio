@@ -1,5 +1,12 @@
 <script setup>
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init({
+  delay: 200,
+  duration: 1500,
+  once: false,
+  mirror: false
+});
 </script>
 
 <template>

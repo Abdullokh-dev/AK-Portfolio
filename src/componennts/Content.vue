@@ -20,7 +20,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="row d-flex justify-content-center">
+  <div class="row d-flex justify-content-center" data-aos="fade-up">
     <div class="col-12 mt-5 text-center text">
       Hello, I'm
     </div>
@@ -32,21 +32,21 @@ onMounted(() => {
     </div>
   </div>
 
-  <div class="row">
+  <div class="row" data-aos="flip-down" data-aos-delay="1000">
     <div class="col d-flex justify-content-center">
       <button type="button" class="download-button px-4 m-3 mt-4"> Download CV </button>
       <button class="about-button m-3 mt-4"> About me </button>
     </div>
   </div>
 
-  <div class="row">
+  <div class="row" data-aos="fade-up" data-aos-delay="1200">
     <div class="col d-flex justify-content-center">
       <img src="../assets/bar.png" class="first-image mt-3" width="275" height="275" alt="#">
     </div>
   </div>
 
   <div class="row my-5">
-    <div class="col text-center">
+    <div class="col text-center" data-aos="zoom-out" data-aos-delay="1300">
       <div> <span class="title" id="about">About me</span> </div>
       <div> <span class="title-info">My intro</span> </div>
     </div>
@@ -55,10 +55,10 @@ onMounted(() => {
   <div class="row d-flex justify-content-center">
     <div class="col-11 col-xl-8 mt-5">
       <div class="row">
-        <div class="col-12 col-md-6 text-center text-xl-start">
+        <div class="col-12 col-md-6 text-center text-xl-start" data-aos="flip-left" data-aos-delay="1350">
           <img src="../assets/baz.png" class="second-image mt-3" width="275" height="275" alt="#">
         </div>
-        <div class="col-12 col-md-6 text-center">
+        <div class="col-12 col-md-6 text-center" data-aos="zoom-in-right" data-aos-delay="1400">
           <div class="row">
             <div class="col-12 mt-4 mt-md-0">
               <p class="info-about-user">
@@ -79,7 +79,7 @@ onMounted(() => {
               </p>
             </div>
             <div class="col d-flex justify-content-between  gap-4 gap-md-2 gap-lg-3">
-              <div class="card text-center mt-5" style="width: 130px;">
+              <div class="card text-center mt-5" style="width: 130px;" data-aos="fade-in">
                 <div class="card-content">
                   <svg class="card-title" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M19 6.5H16V5.5C16 4.70435 15.6839 3.94129 15.1213 3.37868C14.5587 2.81607 13.7956 2.5 13 2.5H11C10.2044 2.5 9.44129 2.81607 8.87868 3.37868C8.31607 3.94129 8 4.70435 8 5.5V6.5H5C4.20435 6.5 3.44129 6.81607 2.87868 7.37868C2.31607 7.94129 2 8.70435 2 9.5V18.5C2 19.2956 2.31607 20.0587 2.87868 20.6213C3.44129 21.1839 4.20435 21.5 5 21.5H19C19.7956 21.5 20.5587 21.1839 21.1213 20.6213C21.6839 20.0587 22 19.2956 22 18.5V9.5C22 8.70435 21.6839 7.94129 21.1213 7.37868C20.5587 6.81607 19.7956 6.5 19 6.5ZM10 5.5C10 5.23478 10.1054 4.98043 10.2929 4.79289C10.4804 4.60536 10.7348 4.5 11 4.5H13C13.2652 4.5 13.5196 4.60536 13.7071 4.79289C13.8946 4.98043 14 5.23478 14 5.5V6.5H10V5.5ZM20 18.5C20 18.7652 19.8946 19.0196 19.7071 19.2071C19.5196 19.3946 19.2652 19.5 19 19.5H5C4.73478 19.5 4.48043 19.3946 4.29289 19.2071C4.10536 19.0196 4 18.7652 4 18.5V13C4.97544 13.3869 5.97818 13.7011 7 13.94V14.53C7 14.7952 7.10536 15.0496 7.29289 15.2371C7.48043 15.4246 7.73478 15.53 8 15.53C8.26522 15.53 8.51957 15.4246 8.70711 15.2371C8.89464 15.0496 9 14.7952 9 14.53V14.32C9.99435 14.4554 10.9965 14.5255 12 14.53C13.0035 14.5255 14.0057 14.4554 15 14.32V14.53C15 14.7952 15.1054 15.0496 15.2929 15.2371C15.4804 15.4246 15.7348 15.53 16 15.53C16.2652 15.53 16.5196 15.4246 16.7071 15.2371C16.8946 15.0496 17 14.7952 17 14.53V13.94C18.0218 13.7011 19.0246 13.3869 20 13V18.5ZM20 10.81C19.0274 11.2205 18.0244 11.5548 17 11.81V11.5C17 11.2348 16.8946 10.9804 16.7071 10.7929C16.5196 10.6054 16.2652 10.5 16 10.5C15.7348 10.5 15.4804 10.6054 15.2929 10.7929C15.1054 10.9804 15 11.2348 15 11.5V12.24C13.0113 12.54 10.9887 12.54 9 12.24V11.5C9 11.2348 8.89464 10.9804 8.70711 10.7929C8.51957 10.6054 8.26522 10.5 8 10.5C7.73478 10.5 7.48043 10.6054 7.29289 10.7929C7.10536 10.9804 7 11.2348 7 11.5V11.83C5.97562 11.5748 4.9726 11.2405 4 10.83V9.5C4 9.23478 4.10536 8.98043 4.29289 8.79289C4.48043 8.60536 4.73478 8.5 5 8.5H19C19.2652 8.5 19.5196 8.60536 19.7071 8.79289C19.8946 8.98043 20 9.23478 20 9.5V10.81Z" fill="#FFA97A"/>
@@ -89,7 +89,7 @@ onMounted(() => {
                 </div>
               </div>
 
-              <div class="card text-center mt-5" style="width: 130px;">
+              <div class="card text-center mt-5" style="width: 130px;" data-aos="fade-in" data-aos-delay="400">
                 <div class="card-content">
                   <svg class="card-title" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M21 10C21.1313 10 21.2614 9.97419 21.3827 9.92395C21.5041 9.8737 21.6143 9.80005 21.7072 9.70718C21.8 9.61432 21.8737 9.50406 21.9239 9.38272C21.9742 9.26138 22 9.13133 22 9V6C22.0001 5.79017 21.9341 5.58565 21.8114 5.41544C21.6887 5.24524 21.5155 5.11799 21.3164 5.05176L12.3164 2.05176C12.111 1.9834 11.889 1.9834 11.6836 2.05176L2.68359 5.05176C2.48449 5.11799 2.31131 5.24524 2.18861 5.41544C2.0659 5.58565 1.99991 5.79017 2 6V9C1.99997 9.13133 2.02581 9.26138 2.07605 9.38272C2.12629 9.50406 2.19995 9.61432 2.29282 9.70718C2.38568 9.80005 2.49594 9.8737 2.61728 9.92395C2.73862 9.97419 2.86867 10 3 10H4V17.1843C3.41674 17.3897 2.91137 17.7707 2.55327 18.2748C2.19517 18.779 2.0019 19.3816 2 20V22C1.99997 22.1313 2.02581 22.2614 2.07605 22.3827C2.12629 22.5041 2.19995 22.6143 2.29282 22.7072C2.38568 22.8 2.49594 22.8737 2.61728 22.9239C2.73862 22.9742 2.86867 23 3 23H21C21.1313 23 21.2614 22.9742 21.3827 22.9239C21.5041 22.8737 21.6143 22.8 21.7072 22.7072C21.8 22.6143 21.8737 22.5041 21.9239 22.3827C21.9742 22.2614 22 22.1313 22 22V20C21.9981 19.3816 21.8048 18.779 21.4467 18.2748C21.0886 17.7707 20.5833 17.3897 20 17.1843V10H21ZM20 21H4V20C4.00026 19.7349 4.10571 19.4807 4.29319 19.2932C4.48066 19.1057 4.73486 19.0003 5 19H19C19.2651 19.0003 19.5193 19.1057 19.7068 19.2932C19.8943 19.4807 19.9997 19.7349 20 20V21ZM6 17V10H8V17H6ZM10 17V10H14V17H10ZM16 17V10H18V17H16ZM4 8V6.7207L12 4.0537L20 6.7207V8H4Z" fill="#FFA97A"/>
@@ -100,7 +100,7 @@ onMounted(() => {
                 </div>
               </div>
 
-              <div class="card text-center mt-5" style="width: 130px;">
+              <div class="card text-center mt-5" style="width: 130px;" data-aos="fade-in" data-aos-delay="600">
                 <div class="card-content">
                   <svg class="card-title" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M14 9H10C9.73478 9 9.48043 9.10536 9.29289 9.29289C9.10536 9.48043 9 9.73478 9 10V22C9 22.2652 9.10536 22.5196 9.29289 22.7071C9.48043 22.8946 9.73478 23 10 23H14C14.2652 23 14.5196 22.8946 14.7071 22.7071C14.8946 22.5196 15 22.2652 15 22V10C15 9.73478 14.8946 9.48043 14.7071 9.29289C14.5196 9.10536 14.2652 9 14 9ZM13 21H11V11H13V21ZM22 1H18C17.7348 1 17.4804 1.10536 17.2929 1.29289C17.1054 1.48043 17 1.73478 17 2V22C17 22.2652 17.1054 22.5196 17.2929 22.7071C17.4804 22.8946 17.7348 23 18 23H22C22.2652 23 22.5196 22.8946 22.7071 22.7071C22.8946 22.5196 23 22.2652 23 22V2C23 1.73478 22.8946 1.48043 22.7071 1.29289C22.5196 1.10536 22.2652 1 22 1ZM21 21H19V3H21V21ZM6 15H2C1.73478 15 1.48043 15.1054 1.29289 15.2929C1.10536 15.4804 1 15.7348 1 16V22C1 22.2652 1.10536 22.5196 1.29289 22.7071C1.48043 22.8946 1.73478 23 2 23H6C6.26522 23 6.51957 22.8946 6.70711 22.7071C6.89464 22.5196 7 22.2652 7 22V16C7 15.7348 6.89464 15.4804 6.70711 15.2929C6.51957 15.1054 6.26522 15 6 15ZM5 21H3V17H5V21Z" fill="#FFA97A"/>
@@ -110,7 +110,7 @@ onMounted(() => {
                 </div>
               </div>
             </div>
-            <div class="col-12 text-center text-md-start mt-4">
+            <div class="col-12 text-center text-md-start mt-4" data-aos="flip-down">
               <router-link to="/contact">
                 <button @click="$router.push('/contact')" role="link" class="about-button mt-4" style="width: 145px"> Contact me </button>
               </router-link>

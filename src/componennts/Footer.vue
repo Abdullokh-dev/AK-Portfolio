@@ -1,25 +1,25 @@
 <template>
   <div class="row footer mt-5">
-    <div class="col text-center text-light">
+    <div class="col text-center text-light" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <div class="user-name mt-4">Abdullokh Khamzaev </div>
       <div class="row d-flex justify-content-center">
         <div class="col-12 col-md-10 col-lg-8 col-xl-6 mt-4">
           <div class="row d-flex justify-content-between">
             <div class="col-4 col-md-2">
-              <a href="#about" class="mt-4">About</a>
+              <a href="#about" class="mt-4 item">About</a>
             </div>
             <div class="col-4 col-md-auto">
-              <a href="#experience" class="mt-4">Experience</a>
+              <a href="#experience" class="mt-4 item">Experience</a>
             </div>
             <div class="col-4 col-md-auto">
-              <a href="#services" class="mt-4">Services</a>
+              <a href="#services" class="mt-4 item">Services</a>
             </div>
             <div class="col-4 col-md-auto">
-              <a href="#portfolio" class="mt-4">Portfolio</a>
+              <a href="#portfolio" class="mt-4 item">Portfolio</a>
             </div>
             <div class="col-4 d-md-none"></div>
             <div class="col-4 col-md-auto">
-              <a href="#contact" class="mt-4">Contact</a>
+              <a href="#contact" class="mt-4 item">Contact</a>
             </div>
           </div>
         </div>
@@ -100,5 +100,21 @@ a {
   line-height: 32px;
   color: var(--my-deep-gray);
   margin: 70px 0 12px 0;
+}
+
+.justify-content-between {
+  transition: all 0.5s ease;
+}
+
+a {
+  transition: color .5s linear;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+  transition-property: color;
+}
+
+.item:hover {
+  color: whitesmoke;
 }
 </style>

@@ -4,7 +4,7 @@
 
       <form class="row d-flex justify-content-center" method="POST" action="https://formspree.io/f/xpzeljnj">
         <div class="col-11 col-sm-10 col-md-9 text-center">
-          <div class="title text-center mt-5" style="position: relative">
+          <div class="title text-center mt-5" style="position: relative" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
             <router-link to="/">
               <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="white" class="bi bi-arrow-left" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
@@ -13,13 +13,13 @@
             Get In Touch
           </div>
 
-          <input required type="text" class="px-4 mt-5" placeholder="Your name" name="name">
+          <input required type="text" class="px-4 mt-5" placeholder="Your name" name="name" data-aos="fade-right">
 
-          <input required type="email" class="px-4 mt-5" placeholder="Email" name="email">
+          <input required type="email" class="px-4 mt-5" placeholder="Email" name="email" data-aos="fade-left">
 
-          <textarea required placeholder="message" class="mt-5 p-4" name="message"></textarea>
+          <textarea required placeholder="message" class="mt-5 p-4" name="message" data-aos="fade-right"></textarea>
 
-          <button type="submit" class="px-5 my-5">
+          <button type="submit" class="px-5 my-5" data-aos="fade-down">
             Send
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>

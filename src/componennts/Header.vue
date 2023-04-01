@@ -13,7 +13,7 @@ const toggleDark = useToggle(isDark);
   <nav class="navbar navbar-expand-lg row">
     <div class="container-fluid">
       <div class="col-5 col-md-4 col-lg-2 col-xl-3 col-xxl-2 d-flex justify-content-center">
-        <span class="namePortfolio my-5">Abdullokh</span>
+        <span class="namePortfolio my-5" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">Abdullokh</span>
       </div>
 
       <div class="d-lg-none col-6 d-flex justify-content-end">

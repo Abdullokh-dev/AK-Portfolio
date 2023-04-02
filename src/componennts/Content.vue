@@ -1,5 +1,14 @@
 <script setup>
 import InputRange from "./InputRange.vue";
+import {saveAs} from 'file-saver';
+import axios from "axios";
+
+const downloadItem = (url) => {
+  axios.get(url, {responseType: 'blob'})
+    .then(response => {
+      saveAs(response.data, 'CV.pdf');
+    })
+}
 
 </script>
 
@@ -21,7 +30,7 @@ import InputRange from "./InputRange.vue";
 
       <div class="row" data-aos="flip-down" data-aos-delay="500">
         <div class="col d-flex justify-content-center">
-          <button type="button" class="download-button px-4 m-3 mt-4"> Download CV </button>
+          <button @click="downloadItem('CV.pdf')" type="button" class="download-button px-4 m-3 mt-4"> Download CV </button>
           <button class="about-button m-3 mt-4"> About me </button>
         </div>
       </div>

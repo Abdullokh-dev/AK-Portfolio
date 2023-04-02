@@ -33,7 +33,7 @@ import InputRange from "./InputRange.vue";
       </div>
 
       <div class="row my-5">
-        <div class="col text-center" data-aos="zoom-out" data-aos-delay="700">
+        <div class="col text-center" data-aos="zoom-in" data-aos-delay="700">
           <div> <span class="title" id="about">About me</span> </div>
           <div> <span class="title-info">My intro</span> </div>
         </div>

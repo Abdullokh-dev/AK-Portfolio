@@ -33,19 +33,19 @@ const toggleDark = useToggle(isDark);
       <div class="col-12 col-lg-8 col-xl-6 text-center">
         <div class="collapse d-lg-flex justify-content-center ms-lg-5 navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0">
-            <li class="nav-item mt-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
+            <li class="nav-item mt-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="500">
               <a href="#about" class="list">About</a>
             </li>
-            <li class="nav-item mt-2" data-aos="zoom-in" data-aos-delay="350" data-aos-duration="1000">
+            <li class="nav-item mt-2" data-aos="zoom-in" data-aos-delay="350" data-aos-duration="500">
               <a href="#experience" class="list">Experience</a>
             </li>
-            <li class="nav-item mt-2" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
+            <li class="nav-item mt-2" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="500">
               <a href="#services" class="list">Services</a>
             </li>
-            <li class="nav-item mt-2" data-aos="zoom-in" data-aos-delay="650" data-aos-duration="1000">
+            <li class="nav-item mt-2" data-aos="zoom-in" data-aos-delay="650" data-aos-duration="500">
               <a href="#portfolio" class="list">Portfolio</a>
             </li>
-            <li class="nav-item mt-2" data-aos="zoom-in" data-aos-delay="800" data-aos-duration="1000">
+            <li class="nav-item mt-2" data-aos="zoom-in" data-aos-delay="800" data-aos-duration="500">
               <a href="#contact" class="list">Contact</a>
             </li>
           </ul>
@@ -83,6 +83,11 @@ const toggleDark = useToggle(isDark);
   line-height: 3.2rem;
   text-decoration: none;
   color: var(--my-text-color);
+  transition: color .5s linear;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+  transition-property: color;
 }
 
 svg {
@@ -103,4 +108,6 @@ svg {
 svg {
   cursor: pointer;
 }
+
+
 </style>

@@ -105,7 +105,7 @@ import InputRange from "./InputRange.vue";
     </div>
   </div>
 
-  <div class="row mt-5" data-aos="zoom-out">
+  <div class="row mt-5" data-aos="zoom-in-up">
     <div class="col mt-5 text-center">
       <div> <span class="title" id="experience">My Experience</span> </div>
       <div> <span class="title-info">My Abilities</span> </div>

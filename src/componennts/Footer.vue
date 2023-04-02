@@ -1,5 +1,5 @@
 <template>
-  <div class="row footer mt-5">
+  <div class="row footer">
     <div class="col text-center text-light" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <div class="user-name mt-4">Abdullokh Khamzaev </div>
       <div class="row d-flex justify-content-center">

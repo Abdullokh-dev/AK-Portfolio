@@ -23,7 +23,7 @@ AOS.init({
 }
 
 .dark {
-  background-color: #111A20;
+  background-color: #17232B;
   --my-deep-gray: #293241;
   --my-dark: #182228;
   --my-text-color: white;

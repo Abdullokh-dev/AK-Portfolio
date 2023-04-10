@@ -1,25 +1,25 @@
 <template>
   <div class="row footer">
     <div class="col text-center text-light" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-      <div class="user-name mt-4">Abdullokh Khamzaev </div>
+      <div class="user-name mt-4"> {{ $t('fullName') }} </div>
       <div class="row d-flex justify-content-center">
         <div class="col-12 col-md-10 col-lg-8 col-xl-6 mt-4">
           <div class="row d-flex justify-content-between">
             <div class="col-4 col-md-2">
-              <a href="#about" class="mt-4 item">About</a>
+              <a href="#about" class="mt-4 item">{{ $t('about') }}</a>
             </div>
             <div class="col-4 col-md-auto">
-              <a href="#experience" class="mt-4 item">Experience</a>
+              <a href="#experience" class="mt-4 item">{{ $t('experience') }}</a>
             </div>
             <div class="col-4 col-md-auto">
-              <a href="#services" class="mt-4 item">Services</a>
+              <a href="#services" class="mt-4 item">{{ $t('services') }}</a>
             </div>
             <div class="col-4 col-md-auto">
-              <a href="#portfolio" class="mt-4 item">Portfolio</a>
+              <a href="#portfolio" class="mt-4 item">{{ $t('portfolio') }}</a>
             </div>
             <div class="col-4 d-md-none"></div>
             <div class="col-4 col-md-auto">
-              <a href="#contact" class="mt-4 item">Contact</a>
+              <a href="#contact" class="mt-4 item">{{ $t('contact') }}</a>
             </div>
           </div>
         </div>
@@ -54,7 +54,7 @@
     </div>
 
     <div class="col-12 text-center rights-text">
-      © Abdullokh_dev. All rights reserved
+      © Abdullokh_dev. {{$t('reserved')}}
     </div>
   </div>
 </template>

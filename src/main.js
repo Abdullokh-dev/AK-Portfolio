@@ -6,11 +6,11 @@ import en from "./locales/en.json"
 import ru from "./locales/ru.json";
 
 const i18n = createI18n({
-  locale: 'en',
+  locale: 'Рус',
   allowComposition: true,
   messages: {
-    en: en,
-    ru: ru
+    Eng: en,
+    Рус: ru
   }
 })
 

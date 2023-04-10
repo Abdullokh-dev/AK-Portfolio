@@ -4,5 +4,50 @@
   "experience": "Experience",
   "services": "Services",
   "portfolio": "Portfolio",
-  "contact": "Contact"
+  "contact": "Contact",
+  "hello": "Hello, I'm",
+  "fullName": "Abdullokh Khamzaev",
+  "profession": "Web/Frontend Developer",
+  "downloadCv": "Download CV",
+  "aboutMe": "About me",
+  "myIntro": "My intro",
+  "myStory": {
+    "1": "Frontend Developer, with extensive knowledge and years of experience, working in web technologies with these my 3 mottos:",
+    "2":"Never stop learning and don't be shy about asking questions, just like you started it the first time! When you have more experience than everyone around you, Don't say \"I know everything and Can create everything\". Because It will stop you growing!",
+    "3": "In the world of programming, you can't learn everything, and there's always someone stronger than you!",
+    "4": "The biggest mistake is \"not making mistakes\", because 80% of the programming process is dealing with mistakes"
+  },
+  "completed": "Completed",
+  "projects": "Projects",
+  "worked": "Worked",
+  "experienced": "Experienced",
+  "year": "year",
+  "contactMe": "Contact me",
+  "myExperience": "My Experience",
+  "myAbilities": "My Abilities",
+  "percentageInfo": "The Percentages Below Represent How Much Of Which Technologies I Used During My Experience.",
+  "frontendDevelopment": "Frontend Development",
+  "backDevelopment": "Backend Development",
+  "plusOneYear": "More than a year",
+  "myOffer": "What I Offer",
+  "myServices": "My Services",
+  "service": {
+    "title1": "Creation of website/application",
+    "title2": "Rebranding",
+    "description1": "You want to launch your web application, you need a developer who has an fire eyes for your future? Contact me and we will discuss your needs and desires.",
+    "description2": "You need a new design, something more modern? Contact me and we will discuss your needs and desires."
+  },
+  "recentWorks": "Recent Works",
+  "myPortfolio": "My Portfolio",
+  "project": {
+    "title1": "Books Web Application",
+    "title2": "Education Center Website",
+    "title3": "Web Design Sell/Buy House",
+    "title4": "CottageUz Web Application",
+    "title5": "Little Books Library",
+    "title6": "Manage Users List",
+    "viewMore": "View more"
+  },
+  "getInTouch": "get in touch",
+  "reserved": "All rights reserved"
 }

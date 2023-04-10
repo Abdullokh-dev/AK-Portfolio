@@ -6,7 +6,7 @@ import axios from "axios";
 const downloadItem = (url) => {
   axios.get(url, {responseType: 'blob'})
     .then(response => {
-      saveAs(response.data, 'CV.pdf');
+      saveAs(response.data, 'CV-ru.pdf');
     })
 }
 

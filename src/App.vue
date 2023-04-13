@@ -1,17 +1,13 @@
 <script setup>
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import {onMounted} from "vue";
+
 AOS.init({
   delay: 100,
   duration: 600,
   once: false,
   mirror: false
 });
-
-onMounted(() => {
-  localStorage.setItem('language', 'Рус')
-})
 </script>
 
 <template>

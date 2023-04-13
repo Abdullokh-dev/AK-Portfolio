@@ -1,17 +1,9 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import router from "./plugins/router.js";
-import { createI18n } from 'vue-i18n';
-import en from "./locales/en.json"
-import ru from "./locales/ru.json";
+const app = createApp(App)
+import router from './plugins/router.js'
+import i18n from "./locales/i18n.js";
 
-const i18n = createI18n({
-  locale: 'Рус',
-  allowComposition: true,
-  messages: {
-    Eng: en,
-    Рус: ru
-  }
-})
-
-createApp(App).use(i18n).use(router).mount('#app')
+app.use(i18n)
+app.use(router)
+app.mount('#app')

@@ -2,11 +2,16 @@
 import InputRange from "./InputRange.vue";
 import {saveAs} from 'file-saver';
 import axios from "axios";
+import i18n from "../locales/i18n.js";
 
 const downloadItem = (url) => {
   axios.get(url, {responseType: 'blob'})
     .then(response => {
-      saveAs(response.data, 'CV-ru.pdf');
+      if(i18n.global.locale.value === 'Eng') {
+        saveAs(response.data, 'CV.pdf');
+      } else {
+        saveAs(response.data, 'CV-ru.pdf');
+      }
     })
 }
 

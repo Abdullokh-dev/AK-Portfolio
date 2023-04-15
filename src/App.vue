@@ -1,6 +1,17 @@
 <script setup>
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { useGtag } from 'vue-gtag-next';
+import {onMounted} from "vue";
+const { event } = useGtag();
+const add = () => {
+  event('visited your website', {
+    'event_label' : 'some one is being in here!',
+    'value': new Date()
+  })
+  console.log('kettik')
+};
+const visit = () => setTimeout(add, 5000);
 
 AOS.init({
   delay: 100,
@@ -8,6 +19,10 @@ AOS.init({
   once: false,
   mirror: false
 });
+
+onMounted(() => {
+  visit();
+})
 </script>
 
 <template>

@@ -8,9 +8,9 @@ const downloadItem = (url) => {
   axios.get(url, {responseType: 'blob'})
     .then(response => {
       if(i18n.global.locale.value === 'Eng') {
-        saveAs(response.data, 'CV.pdf');
+        saveAs(response.data, 'Abdullokh Khamzaev CV.pdf');
       } else {
-        saveAs(response.data, 'CV-ru.pdf');
+        saveAs(response.data, 'Абдуллох Хамзаев CV.pdf');
       }
     })
 }
@@ -35,7 +35,7 @@ const downloadItem = (url) => {
 
       <div class="row" data-aos="flip-down" data-aos-delay="300">
         <div class="col d-flex justify-content-center">
-          <button @click="downloadItem('CV.pdf')" type="button" class="download-button px-4 m-3 mt-4">{{ $t('downloadCv') }}</button>
+          <button @click="downloadItem(i18n.global.locale.value === 'Eng' ? 'CV.pdf' : 'CVRU.pdf')" type="button" class="download-button px-4 m-3 mt-4">{{ $t('downloadCv') }}</button>
           <button class="about-button m-3 mt-4"> {{ $t('aboutMe') }} </button>
         </div>
       </div>

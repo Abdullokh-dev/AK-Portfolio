@@ -32,6 +32,6 @@ defineProps({
   font-weight: 500;
   line-height: 20px;
   letter-spacing: 0.2px;
-  color: #767676;
+  color: var(--light-gray);
 }
 </style>

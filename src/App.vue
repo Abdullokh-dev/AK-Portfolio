@@ -9,7 +9,6 @@ const add = () => {
     'event_label' : 'some one is being in here!',
     'value': new Date()
   })
-  console.log('kettik')
 };
 const visit = () => setTimeout(add, 5000);
 
@@ -40,21 +39,37 @@ onMounted(() => {
 
 .dark {
   background-color: #17232B;
+  --bg-contentent: #111A20;
+  --header-text: white;
+  --linear-bg: linear-gradient(179.92deg, #FFA97A 0.07%, rgba(248, 242, 244, 0.5) 134.98%);
+  --linear-text: -webkit-linear-gradient(135deg, #FF9F65, #DED37E, #26BDA6);
   --my-deep-gray: #293241;
-  --my-dark: #182228;
+  --gray: #767676;
+  --light-gray: #959595;
+  --card-bg: #182228;
+  --blue-orange: #FFA97A;
+  --gold-to-orange: #FFA97A;
+  --white-gold: white;
   --my-text-color: white;
-  --bg-color: #232C41;
   --my-orange: #FFA97A;
   --header-color: #17232B;
 }
 
 .light {
-  background-color: #111A20;
-  --my-deep-gray: #293241;
-  --my-dark: #182228;
-  --my-text-color: white;
-  --bg-color: #232C41;
-  --my-orange: #FFA97A;
-  --header-color: #17232B;
+  background-color: #7e45db;
+  --bg-contentent: #f8f9fa;
+  --header-text: white;
+  --linear-bg: #7e45db;
+  --linear-text: black;
+  --my-deep-gray: white;
+  --gray: #2f3334;
+  --light-gray: white;
+  --card-bg: #7e45db;
+  --blue-orange: blue;
+  --gold-to-orange: #FBFF55;
+  --white-gold: #FBFF55;
+  --my-text-color: #212529;
+  --my-orange: #7e45db;
+  --header-color: #7e45db;
 }
 </style>

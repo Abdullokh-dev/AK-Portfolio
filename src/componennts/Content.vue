@@ -204,7 +204,7 @@ const downloadItem = (url) => {
                 </svg>
                 <span class="offer-title ps-2">{{ $t('service.title2') }}</span>
               </div>
-              <p class="offer-description mt-3 mb-5">
+              <p class="offer-description mt-3 mb-5 pb-5">
                 {{ $t('service.description2') }}
               </p>
               <div class="d-flex justify-content-end">

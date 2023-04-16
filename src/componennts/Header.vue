@@ -252,4 +252,7 @@ select:focus {
   margin-top: 4px;
 }
 
+.btn-check:checked {
+   background-color: var(--header-color);
+}
 </style>

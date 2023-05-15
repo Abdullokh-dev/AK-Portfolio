@@ -112,12 +112,12 @@ a {
   transition: color .5s linear;
   transition-duration: 0.5s;
   transition-timing-function: linear;
-  transition-delay: 0s;
+  transition-delay: 0.2s;
   transition-property: color;
 }
 
 .item:hover {
-  color: whitesmoke;
+  color: var(--white-gold);
 }
 
 .tg:hover, .inst:hover, .mail:hover, .git:hover {

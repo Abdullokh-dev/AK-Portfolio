@@ -109,7 +109,7 @@ const downloadItem = (url) => {
                 </div>
                 <div class="col-12 text-center text-md-start mt-4" data-aos="flip-down">
                   <router-link to="/contact">
-                    <button @click="$router.push('/contact')" role="link" class="about-button cnc-btn mt-4"> {{ $t('contactMe') }} </button>
+                    <button @click="$router.push('/contact')" role="link" class="about-button cnc-btn mt-4"> {{ $t('hireMe') }} </button>
                   </router-link>
                 </div>
               </div>
@@ -174,7 +174,7 @@ const downloadItem = (url) => {
       <div class="row mt-5">
         <div class="col mt-5 text-center">
           <div> <span class="title" id="services">{{ $t('myOffer') }}</span> </div>
-          <div> <span class="title-info">{{ $t('myServices') }}</span> </div>
+          <div> <span class="title-info">{{ $t('hireMe') }}</span> </div>
         </div>
       </div>
 
@@ -193,7 +193,7 @@ const downloadItem = (url) => {
                 {{ $t('service.description1') }}
               </p>
               <div class="d-flex justify-content-end">
-                <button @click="$router.push('/contact')" class="contact-button px-3 me-5 mt-4"> {{$t('contactMe')}} </button>
+                <button @click="$router.push('/contact')" class="contact-button px-3 me-5 mt-4"> {{$t('hireMe')}} </button>
               </div>
             </div>
 
@@ -208,7 +208,7 @@ const downloadItem = (url) => {
                 {{ $t('service.description2') }}
               </p>
               <div class="d-flex justify-content-end">
-                <button @click="$router.push('/contact')" class="contact-button px-3 me-5" style="position: absolute; bottom: 22px"> {{$t('contactMe')}} </button>
+                <button @click="$router.push('/contact')" class="contact-button px-3 me-5" style="position: absolute; bottom: 22px"> {{$t('hireMe')}} </button>
               </div>
             </div>
           </div>
@@ -230,7 +230,8 @@ const downloadItem = (url) => {
               <span class="offer-title">{{ $t('project.title1') }}</span>
               <img class="project-img" src="../assets/foo.png" width="265" alt="Abdullokh Project"/>
               <div>
-                <a class="btn view-button px-3 me-4 mt-5" href="https://book-app-green.vercel.app/" role="button"> {{ $t('project.viewMore') }} </a>
+                <a class="btn view-button px-3 me-4 mt-5" href="https://book-app-green.vercel.app/" role="button"> {{ $t('SeeSite') }} </a>
+                <a class="btn view-button px-3 me-4 mt-5" href="https://github.com/Abdullokh-dev/BookApp" role="button"> {{$t('SourceCode')}} </a>
               </div>
             </div>
 
@@ -238,7 +239,8 @@ const downloadItem = (url) => {
               <span class="offer-title">{{ $t('project.title2') }}</span>
               <img class="project-img" src="../assets/lavia.png" width="265" alt="Abdullokh Project"/>
               <div>
-                <a class="btn view-button px-3 me-4 mt-4" href="https://education-center-two.vercel.app/" role="button"> {{ $t('project.viewMore') }} </a>
+                <a class="btn view-button px-3 me-4 mt-4" href="https://education-center-two.vercel.app/" role="button"> {{ $t('SeeSite') }} </a>
+                <a class="btn view-button px-3 me-4 mt-4" href="https://github.com/Abdullokh-dev/AcademyWebsite" role="button"> {{$t('SourceCode')}} </a>
               </div>
             </div>
 
@@ -247,7 +249,8 @@ const downloadItem = (url) => {
                 <span class="offer-title">{{ $t('project.title3') }}</span>
                 <img class="project-img" src="../assets/oluy.png" width="265" alt="Abdullokh Project"/>
                 <div>
-                  <a class="btn view-button px-3 me-4 mt-4" href="https://buy-house-app.vercel.app/" role="button"> {{ $t('project.viewMore') }} </a>
+                  <a class="btn view-button px-3 me-4 mt-4" href="https://buy-house-app.vercel.app/" role="button"> {{ $t('SeeSite') }} </a>
+                  <a class="btn view-button px-3 me-4 mt-4" href="https://github.com/Abdullokh-dev/BuyHouse" role="button"> {{$t('SourceCode')}} </a>
                 </div>
               </div>
             </div>
@@ -256,7 +259,8 @@ const downloadItem = (url) => {
               <span class="offer-title">{{ $t('project.title4') }}</span>
               <img class="project-img" src="../assets/cottage.jpg" width="265" alt="Abdullokh Project"/>
               <div>
-                <a class="btn view-button px-3 me-4 mt-4" href="https://cottage-app-ashy.vercel.app/" role="button"> {{ $t('project.viewMore') }} </a>
+                <a class="btn view-button px-3 me-4 mt-4" href="https://cottage-app-ashy.vercel.app/" role="button"> {{ $t('SeeSite') }} </a>
+                <a class="btn view-button px-3 me-4 mt-4" href="https://github.com/Abdullokh-dev/cottage-front" role="button"> {{$t('SourceCode')}} </a>
               </div>
             </div>
 
@@ -265,7 +269,8 @@ const downloadItem = (url) => {
                 <span class="offer-title">{{ $t('project.title5') }}</span>
                 <img class="project-img" src="../assets/library.jpg" width="265" alt="Abdullokh Project"/>
                 <div>
-                  <a class="btn view-button px-3 me-4 mt-5" href="https://book-vert.vercel.app/" role="button"> {{ $t('project.viewMore') }} </a>
+                  <a class="btn view-button px-3 me-4 mt-5" href="https://book-vert.vercel.app/" role="button"> {{ $t('SeeSite') }} </a>
+                  <a class="btn view-button px-3 me-4 mt-5" href="https://github.com/Abdullokh-dev/book-front" role="button"> {{$t('SourceCode')}} </a>
                 </div>
               </div>
             </div>
@@ -275,7 +280,8 @@ const downloadItem = (url) => {
                 <span class="offer-title">{{ $t('project.title6') }}</span>
                 <img class="project-img" src="../assets/userlist.png" width="265" alt="Abdullokh Project"/>
                 <div>
-                  <a class="btn view-button px-3 me-4 mt-4" href="https://labmedia-task.vercel.app/" role="button"> {{ $t('project.viewMore') }} </a>
+                  <a class="btn view-button px-3 me-4 mt-4" href="https://manage-users-list.vercel.app/" role="button"> {{ $t('SeeSite') }} </a>
+                  <a class="btn view-button px-3 me-4 mt-4" href="https://github.com/Abdullokh-dev/manage-users-list" role="button"> {{$t('SourceCode')}} </a>
                 </div>
               </div>
             </div>
@@ -286,7 +292,7 @@ const downloadItem = (url) => {
 
       <div class="row my-5">
         <div class="col mt-5 text-center" data-aos="fade-in">
-          <div> <span class="title" id="contact">{{ $t('contactMe') }}</span> </div>
+          <div> <span class="title" id="contact">{{ $t('hireMe') }}</span> </div>
           <div> <span class="title-info">{{ $t('getInTouch') }} </span> </div>
         </div>
 

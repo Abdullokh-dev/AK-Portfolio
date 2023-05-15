@@ -33,9 +33,9 @@
   "myServices": "My Services",
   "service": {
     "title1": "Creation of website/application",
-    "title2": "Rebranding",
-    "description1": "You want to launch your web application, you need a developer who has an fire eyes for your future? Contact me and we will discuss your needs and desires.",
-    "description2": "You need a new design, something more modern? Contact me and we will discuss your needs and desires."
+    "title2": "Редизайн",
+    "description1": "Looking to get your web app up and running, do you need a forward-thinking developer? Hire me and I will discuss your needs and wants.",
+    "description2": "You need something more modern? Contact me and we will discuss your needs and desires."
   },
   "recentWorks": "Recent Works",
   "myPortfolio": "My Portfolio",
@@ -49,5 +49,8 @@
     "viewMore": "View more"
   },
   "getInTouch": "get in touch",
-  "reserved": "All rights reserved"
+  "reserved": "All rights reserved",
+  "hireMe": "Hire Me",
+  "SeeSite": "See Live",
+  "SourceCode": "Source Code"
 }

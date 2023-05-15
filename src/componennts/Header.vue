@@ -164,7 +164,8 @@ const changeLang = (lang) => {
 }
 
 .list:hover {
-  color: var(--my-orange);
+  color: var(--gold-to-orange);
+  animation-delay: 0.3s;
   cursor: pointer;
 }
 
@@ -182,7 +183,7 @@ const changeLang = (lang) => {
   transition: color .5s linear;
   transition-duration: 0.5s;
   transition-timing-function: linear;
-  transition-delay: 0s;
+  transition-delay: 0.2s;
   transition-property: color;
 }
 .dropdown-toggle {

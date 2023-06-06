@@ -227,6 +227,18 @@ const downloadItem = (url) => {
 
           <div class="row gap-lg-5 d-flex justify-content-center">
             <div class="col-12 mt-5 me-md-5 project-card" data-aos="zoom-in">
+              <div class="new-badge">
+                <h2><span class="badge bg-info">New</span></h2>
+              </div>
+              <span class="offer-title">{{ $t('project.title') }}</span>
+              <img class="project-img" src="../assets/new.jpg" width="265" alt="Abdullokh Project"/>
+              <div>
+                <a class="btn view-button px-3 me-4 mt-5" href="https://self-micro-maker-master.vercel.app/#/" role="button"> {{ $t('SeeSite') }} </a>
+                <a class="btn view-button px-3 me-4 mt-5" href="https://github.com/Abdullokh-dev/self-micro-maker" role="button"> {{$t('SourceCode')}} </a>
+              </div>
+            </div>
+
+            <div class="col-12 mt-5 me-md-5 project-card" data-aos="zoom-in">
               <span class="offer-title">{{ $t('project.title1') }}</span>
               <img class="project-img" src="../assets/foo.png" width="265" alt="Abdullokh Project"/>
               <div>
@@ -383,10 +395,6 @@ button {
   padding: 0 20px;
 }
 
-.cnc-btn {
-
-}
-
 .first-image {
   background: linear-gradient(179.92deg, var(--my-orange) 0.07%, white 134.98%);
   border-radius: 70px 70px 20px 20px;
@@ -431,6 +439,12 @@ button {
   background-color: var(--card-bg);
   border: none;
   border-radius: 15px;
+}
+
+.new-badge {
+  position: absolute;
+  right: 15px;
+  top: 15px;
 }
 
 .card-content > svg {

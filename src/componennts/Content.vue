@@ -238,7 +238,7 @@ const downloadItem = (url) => {
               </div>
             </div>
 
-            <div class="col-12 mt-5 ms-md-4 project-card" data-aos="zoom-in">
+            <div class="col-12 mt-5 ms-md-5 project-card" data-aos="zoom-in">
               <span class="offer-title">{{ $t('project.title1') }}</span>
               <img class="project-img" src="../assets/foo.png" width="265" alt="Abdullokh Project"/>
               <div>
@@ -247,7 +247,7 @@ const downloadItem = (url) => {
               </div>
             </div>
 
-            <div class="col-12 mt-5 me-md-4 project-card" data-aos="zoom-in"  data-aos-delay="100">
+            <div class="col-12 mt-5 me-md-5 project-card" data-aos="zoom-in"  data-aos-delay="100">
               <span class="offer-title">{{ $t('project.title2') }}</span>
               <img class="project-img" src="../assets/lavia.png" width="265" alt="Abdullokh Project"/>
               <div>

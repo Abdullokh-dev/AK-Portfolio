@@ -228,7 +228,7 @@ const downloadItem = (url) => {
           <div class="row gap-lg-5 d-flex justify-content-center">
             <div class="col-12 mt-5 me-md-5 project-card" data-aos="zoom-in">
               <div class="new-badge">
-                <h2><span class="badge bg-info">New</span></h2>
+                <h2><span class="badge bg-info">{{ $t('project.badge') }}</span></h2>
               </div>
               <span class="offer-title">{{ $t('project.title') }}</span>
               <img class="project-img" src="../assets/new.jpg" width="265" alt="Abdullokh Project"/>

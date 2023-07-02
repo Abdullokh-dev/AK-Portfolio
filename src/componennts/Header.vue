@@ -93,7 +93,7 @@ const changeLang = (lang) => {
               <a href="#services" class="list">{{ $t('services') }}</a>
             </li>
             <li class="nav-item mt-2" data-aos="zoom-in" data-aos-delay="250" data-aos-duration="500">
-              <a href="#contact" class="list">{{ $t('portfolio') }}</a>
+              <a href="#portfolio" class="list">{{ $t('portfolio') }}</a>
             </li>
             <li class="nav-item mt-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="500">
               <a href="#contact" class="list">{{ $t('contact') }}</a>
